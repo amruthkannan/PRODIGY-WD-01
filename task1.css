@@ -1,0 +1,71 @@
+
+    html{
+      scroll-behavior: smooth;
+    }
+    body{
+      background: rgb(213,226,199);
+      background: linear-gradient(90deg, rgba(213,226,199,1) 25%, rgba(58,182,187,1) 90%);
+    }
+    p{
+      font-size: 18px;
+    }
+    p,h2{
+      font-family: 'Times New Roman', Times, serif;
+      color:rgba(42, 18, 137, 0.814);
+    }
+    .header{
+      text-align: center;
+    }
+    .navbar{
+      background-color: beige;
+      border:1px solid black;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      position:sticky;
+      top: 0;
+      transition: 1.5s;
+    }
+    .navbar:hover{
+      background-color:peru;
+    }
+    .aboutflex{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      flex-wrap: wrap;
+    }
+    .typeflex{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      flex-wrap: wrap;
+    }
+    .useflex{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      flex-wrap: wrap;
+    }
+    .compflex{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      flex-wrap: wrap;
+    }
+    a,a:visited
+    {
+      text-decoration: none;
+      color: rgb(88, 83, 83);
+    }
+    a:hover{
+      color: rgb(9, 42, 230);
+            
+      transition: 1.5s;
+    }
+    .colchange{
+      background: rgb(187,58,84);
+      background: linear-gradient(90deg, rgba(187,58,84,1) 9%, rgba(213,226,199,1) 100%);
+      
+    }
+  
